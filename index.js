@@ -24,7 +24,6 @@ const checkUserId = ( request, response, next) =>{
 }
 
 const requests = (request, response, next) =>{
-
     const method = request.route.methods
     const url = request.route.path
     console.log(method, url)
